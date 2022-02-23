@@ -1,4 +1,4 @@
-const Peer = require('simple-peer');
+const Peer = require('vite-compatible-simple-peer');
 
 class SimplePeerClientWrapper {
   constructor(socket, debug, simplePeerOptions) {
