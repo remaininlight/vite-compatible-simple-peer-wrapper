@@ -1,4 +1,5 @@
-const Peer = require('vite-compatible-simple-peer');
+import { Peer } from '../dependencies/vite-compatible-simple-peer/index.js'
+//const Peer = require('vite-compatible-simple-peer');
 
 class SimplePeerClientWrapper {
   constructor(socket, debug, simplePeerOptions) {
@@ -199,4 +200,5 @@ class SimplePeerClientWrapper {
   }
 }
 
-module.exports = SimplePeerClientWrapper;
+export { SimplePeerClientWrapper }
+//module.exports = SimplePeerClientWrapper;

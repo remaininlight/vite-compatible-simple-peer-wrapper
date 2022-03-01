@@ -1,4 +1,5 @@
-const SocketIOClientWrapper = require('./socket-io-client-wrapper.js');
+//const SocketIOClientWrapper = require('./socket-io-client-wrapper.js');
+import { SocketIOClientWrapper } from './socket-io-client-wrapper.js'
 
 class SimplePeerWrapper {
   constructor(options) {
@@ -27,4 +28,5 @@ class SimplePeerWrapper {
   }
 }
 
-module.exports = SimplePeerWrapper;
+export { SimplePeerWrapper }
+//module.exports = SimplePeerWrapper;

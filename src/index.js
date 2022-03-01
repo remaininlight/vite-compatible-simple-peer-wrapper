@@ -1,3 +1,8 @@
-const SimplePeerWrapper = require('./simple-peer-wrapper.js');
+import { SimplePeerWrapper } from './simple-peer-wrapper'
+//const SimplePeerWrapper = require('./simple-peer-wrapper.js');
 
-module.exports = SimplePeerWrapper;
+// Oooh
+
+export { SimplePeerWrapper }
+//export { SimplePeerWrapper }
+//module.exports = SimplePeerWrapper;
